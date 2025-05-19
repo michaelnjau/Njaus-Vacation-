@@ -16,7 +16,7 @@ const Packages: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-medium mb-4">
-            Our Offerings
+            Servives Offered
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             All-Inclusive <span className="text-orange-500">Package</span>
@@ -43,7 +43,7 @@ const Packages: React.FC = () => {
             },
             {
               title: "Elephant Junior Suites",
-              image: "https://images.pexels.com/photos/3375997/pexels-photo-3375997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+              image: "https://drive.google.com/file/d/1kOsoRnylwI7H22OazU62mJ9w2e3SJaub/view?usp=sharing",
               description: "Each tent features an outdoor jacuzzi and private dining options, blending wilderness with luxury."
             }
           ].map((item, index) => (
