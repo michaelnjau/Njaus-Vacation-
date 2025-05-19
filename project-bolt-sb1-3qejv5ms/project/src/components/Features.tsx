@@ -51,7 +51,7 @@ const Features: React.FC = () => {
               Why Choose <span className="text-orange-500">Emaiyan?</span>
             </h2>
             <p className="text-gray-600 mb-8">
-              Our all-inclusive packages are designed to provide you with the ultimate safari experience without any hidden costs or unexpected expenses.
+              Our all-inclusive packages are designed to provide us with the ultimate safari experience without any hidden costs or unexpected expenses.
             </p>
             
             <div className="space-y-6">
@@ -82,7 +82,7 @@ const Features: React.FC = () => {
               href="#contact" 
               className="mt-10 inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105"
             >
-              Book Your Experience
+              Book The Safari
             </a>
           </div>
         </div>
