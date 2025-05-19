@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 bg-orange-500/20 text-orange-400 rounded-full text-sm font-medium mb-4">
-            Book Your Trip
+            Book The Trip
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready for an Unforgettable Safari?
