@@ -71,7 +71,7 @@ const Packages: React.FC = () => {
                   href="#contact" 
                   className="mt-6 inline-block text-orange-500 font-medium hover:text-orange-600 transition-colors"
                 >
-                  Learn more →
+                  Tuchangamkie
                 </a>
               </div>
             </div>
