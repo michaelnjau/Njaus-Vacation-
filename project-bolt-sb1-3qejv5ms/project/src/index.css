@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+.animate-slideDown {
+  animation: slideDown 1s ease-in-out forwards;
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 1s ease-in-out forwards;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 1s ease-in-out forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tear-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: white;
+  clip-path: polygon(
+    0% 0%,
+    5% 100%,
+    10% 30%,
+    15% 100%,
+    20% 50%,
+    25% 100%,
+    30% 70%,
+    35% 100%,
+    40% 40%,
+    45% 100%,
+    50% 60%,
+    55% 100%,
+    60% 30%,
+    65% 100%,
+    70% 50%,
+    75% 100%,
+    80% 70%,
+    85% 100%,
+    90% 40%,
+    95% 100%,
+    100% 0%
+  );
+}
