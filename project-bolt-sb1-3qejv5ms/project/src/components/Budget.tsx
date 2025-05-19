@@ -136,7 +136,7 @@ const Budget: React.FC = () => {
                 <p className="text-gray-700 text-sm">People</p>
               </div>
               <div className="flex-1 p-4 bg-orange-100 rounded-lg text-center">
-                <h4 className="text-xl font-bold text-orange-600 mb-1">6</h4>
+                <h4 className="text-xl font-bold text-orange-600 mb-1">2</h4>
                 <p className="text-gray-700 text-sm">Game Drives</p>
               </div>
             </div>
