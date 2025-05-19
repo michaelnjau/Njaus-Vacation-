@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-6">The Njau's <span className="text-orange-500">Vacation Trip</span></h3>
             <p className="text-gray-400 mb-6">
-              Providing unforgettable safari experiences in Kenya's most iconic wildlife reserve. Our packages are designed to create lasting memories for families and adventure seekers.
+              Providing unforgettable safari experiences in Kenya's most iconic wildlife reserve. The Mara package is designed to create lasting memories for our as adventure seekers.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors duration-300">
