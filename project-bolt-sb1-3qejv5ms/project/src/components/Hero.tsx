@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           </h1>
           <p className="text-white/80 text-lg md:text-xl mb-8 max-w-2xl mx-auto animate-slideUp opacity-0" style={{animation: 'slideUp 1s ease-in-out 0.6s forwards'}}>
             We embark on an unforgettable family adventure to the iconic wildlife reserve of Maasai Mara as we
-            experience nature at its finest with  premium all-inclusive packages.
+            experience nature at its finest with premium all-inclusive packages.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fadeIn opacity-0" style={{animation: 'fadeIn 1s ease-in-out 0.9s forwards'}}>
             <a 
