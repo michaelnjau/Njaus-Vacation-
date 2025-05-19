@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
               href="#contact" 
               className="bg-transparent hover:bg-white/10 text-white border border-white px-8 py-3 rounded-full font-medium transition-all duration-300"
             >
-              Inquire Now
+              Book Now
             </a>
           </div>
         </div>
